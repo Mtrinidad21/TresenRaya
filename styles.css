@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.nombre {
+  text-align: center;
+}
+
+#nombretxt {
+  width: 220px;
+  height: 25px;
+}
+#tablero {
+  margin: auto;
+  width: 750px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6%;
+}
+
+#tablero > button {
+  width: 250px;
+  height: 250px;
+  max-width: 33.33%;
+  font-size: 12em;
+}
+
+#textoVictoria {
+  visibility: hidden;
+  color: chartreuse;
+}
